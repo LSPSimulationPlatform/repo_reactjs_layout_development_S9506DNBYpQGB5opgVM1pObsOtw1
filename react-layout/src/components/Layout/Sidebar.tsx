@@ -6,6 +6,8 @@ import {
   InfoCircleOutlined, // Icon for About menu item
   PlusOutlined, // Icon for Create User menu item
 } from '@ant-design/icons'; // Ant Design icon set
+import type { Location, NavigateFunction } from 'react-router-dom'; // Types for routing props (if used)
+ // Types for routing props (if used)
 
 const { Sider } = Layout; // Destructure Sider from Layout for concise usage
 const { Title } = Typography; // Destructure Title for concise usage in the brand area
