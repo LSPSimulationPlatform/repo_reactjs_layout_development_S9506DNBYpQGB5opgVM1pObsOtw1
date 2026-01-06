@@ -10,6 +10,7 @@ import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import Users from "./pages/Users.tsx";
 import CreateUser from "./pages/CreateUser.tsx";
+import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 // Create a React Query client instance used by QueryClientProvider
@@ -40,6 +41,7 @@ const App = () => (
             <Route path="about" element={<About />} /> {/* /about */}
             <Route path="users" element={<Users />} /> {/* /users */}
             <Route path="create-user" element={<CreateUser />} /> {/* /create-user */}
+            <Route path="contact" element={<Contact />} /> {/* /contact us */}
           </Route>
 
           {/* Fallback route: render NotFound for any unmatched path ("404") */}
